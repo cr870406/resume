@@ -1,8 +1,11 @@
 <template>
   <div class="container pt-5">
     <div class="row">
-      <div class="col-12 pb-5">
-        <h1>履歷</h1>
+      <div class="col-12 d-flex align-items-center">
+        <div class="pic">
+          <img src="../assets/S__38461497.jpg" class="w-100" />
+        </div>
+        <h1 class="ms-5">賴慕宇</h1>
       </div>
       <div class="col-12 pb-3">
         <hr />
@@ -10,10 +13,10 @@
       <div class="col-12 pb-5">
         <h3 style="color: #6096b4">關於我</h3>
       </div>
-      <div class="col-12 ps-sm-5">
+      <div class="col-12">
         <h5>個人特質</h5>
         <p>
-          適應能力佳，善於和他人溝通，能分析問題點並找到解決辦法，傾聽他人需求，共同解決問題，自制力強，能在自己排定的時間線裡完成任務。
+          您好，我叫賴慕宇，今年24歲，適應能力佳，善於和他人溝通，能分析問題點並找到解決辦法，傾聽他人需求，共同解決問題，自制力強，能在自己排定的時間線裡完成任務。
         </p>
 
         <h5 class="mt-5">過往經歷</h5>
@@ -25,8 +28,13 @@
         <h5 class="mt-5">自學歷程</h5>
         <p>
           一開始先規劃了我想學的這個領域又細分成哪幾項，再開始蒐集並篩選網路上各種資源開始一步步的學習，前期幾乎都是以看影片的方式學習，<br />
-          到後期比較知道是因為什麼原因導致這個Bug之後都是以看文件的方式來查問題，當獲取的知識點不斷累積起來時，對"寫程式"產生了越來越大的興趣，<br />
+          到後期比較知道是因為什麼原因導致Bug之後都是以看文件的方式來查問題，當獲取的知識點不斷累積起來時，對"寫程式"產生了越來越大的興趣，<br />
           很喜歡在程式裡輾轉的邏輯思考、遇到問題到解決問題這段帶給自己的成就感與永遠學不完的知識。
+        </p>
+        <h5 class="mt-5">專業技能</h5>
+        <p>
+          目前熟悉HTML、CSS、JavaScript、Vue、Pinia、Bootstrap5、GitHub與RWD，scss的部分這個專案有使用到少許功能。<br />
+          未來計畫學習TypeScript、React與公司需要的技能，同時也正在補足網路相關知識和更熟練JavaScript。
         </p>
       </div>
       <div class="col-12 pb-3">
@@ -72,7 +80,7 @@
             <p style="white-space: nowrap">2020/6 &ensp;-&ensp; now</p>
           </div>
           <div class="ps-4">
-            <p class="fs-5">木工師傅</p>
+            <h5>木工師傅</h5>
             <p>
               了解圖面上需施工區域完成後的樣貌及尺寸，<br />
               規劃出最好施作的辦法與可行性，<br />
@@ -86,7 +94,7 @@
             <p style="white-space: nowrap">2019/9 - 2020/6</p>
           </div>
           <div class="ps-4">
-            <p class="fs-5">CAD繪圖人員</p>
+            <h5>CAD繪圖人員</h5>
             <p>
               於勤利設計顧問有限公司擔任CAD繪圖實習生，<br />
               計算出符合法規的施工辦法，<br />
@@ -108,7 +116,7 @@
             <p style="white-space: nowrap">2016/9 - 2020/6</p>
           </div>
           <div class="ps-4">
-            <p class="fs-5">醒吾科技大學</p>
+            <h5>醒吾科技大學</h5>
             <p>數位設計系</p>
           </div>
         </div>
@@ -117,33 +125,9 @@
             <p style="white-space: nowrap">2013/9 - 2016/6</p>
           </div>
           <div class="ps-4">
-            <p class="fs-5">惇敘工商</p>
+            <h5>惇敘工商</h5>
             <p>室內設計科</p>
           </div>
-        </div>
-      </div>
-      <div class="col-12 pb-3">
-        <hr />
-      </div>
-      <div class="col-12 pb-5">
-        <h3 style="color: #6096b4">專業技能</h3>
-      </div>
-      <div class="col-12 d-sm-flex justify-content-between pb-4">
-        <div class="skill">
-          <h4 class="pb-3">Front-End</h4>
-          <p>- HTML / CSS</p>
-          <p>- JavaScript</p>
-          <p>- Vue.js</p>
-        </div>
-        <div class="skill">
-          <h4 class="pb-3">美工類</h4>
-          <p>- Adobe Photoshop</p>
-          <p>- Illustrator</p>
-        </div>
-        <div class="skill">
-          <h4 class="pb-3">製圖類</h4>
-          <p>- AutoCAD</p>
-          <p>- Sketch up</p>
         </div>
       </div>
     </div>
@@ -163,6 +147,20 @@
 br {
   @include xl {
     display: none;
+  }
+}
+.pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1.5px solid #6096b4;
+  overflow: hidden;
+  @include sm {
+    width: 100px;
+    height: 100px;
+  }
+  img {
+    object-fit: cover;
   }
 }
 .skill {

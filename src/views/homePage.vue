@@ -5,7 +5,12 @@
     <div class="row">
       <div class="col-12 col-md-6 d-none d-md-flex">
         <div class="circle">
-          <div class="back"></div>
+          <div class="back">
+            <img
+              src="../assets/S__38461465.jpg"
+              class="mw-100 position-absolute"
+            />
+          </div>
         </div>
       </div>
       <div class="col-12 col-md-6">
@@ -19,9 +24,9 @@
         <div
           class="d-flex my-sm-3 justify-content-center justify-content-md-start"
         >
-          <router-link to="/resume" class="text-decoration-none rounded-circle"
+          <!-- <router-link to="/resume" class="text-decoration-none rounded-circle"
             ><span>Resume</span>
-          </router-link>
+          </router-link> -->
         </div>
         <div class="col-12 d-md-none">
           <div class="mobile"></div>
@@ -66,16 +71,14 @@
       height: 300px;
     }
     .back {
-      background-image: url("../assets/S__38338720.jpg");
-      background-position: top;
-      background-size: cover;
+      // background-image: url("../assets/S__38461465.jpg");
+      // background-position: center;
+      // background-size: cover;
+      overflow: hidden;
       border-radius: 50%;
-      width: 100%;
-      height: 100%;
-      @include xl {
-        // width: 90%;
-        // height: 90%;
-      }
+      width: 80%;
+      height: 80%;
+      position: relative;
     }
   }
 
@@ -84,7 +87,7 @@
     height: 300px;
     margin: 24px auto;
     border-radius: 50%;
-    background-image: url("../assets/S__38338720.jpg");
+    background-image: url("../assets/S__38461465.jpg");
     background-position: top;
     background-size: cover;
   }
