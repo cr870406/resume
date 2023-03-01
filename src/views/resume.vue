@@ -16,31 +16,33 @@
       <div class="col-12">
         <h5>個人特質</h5>
         <p>
-          您好，我叫賴慕宇，今年24歲，適應能力佳，善於和他人溝通，能分析問題點並找到解決辦法，傾聽他人需求，共同解決問題，自制力強，能在自己排定的時間線裡完成任務。
+          您好，我叫賴慕宇，今年 24
+          歲，適應能力佳，善於和他人溝通，能分析問題點並找到解決辦法，傾聽他人需求，共同解決問題，自制力強，能在自己排定的時間線裡完成任務。
         </p>
 
         <h5 class="mt-5">過往經歷</h5>
         <p>
-          畢業後就與父親從事裝潢工作直到現在，這項工作需要思考和顧及的範圍很廣，需要思考先後步驟與如何將效益最大化，<br />
-          越複雜的家具就得更清楚的在腦袋裡構思出步驟圖，而這份工作裡也學到該怎麼和前輩相處，以及有效率的提題。
+          大四時於勤利顧問公司當繪圖實習生，畢業後從事木工行業直到去年年底，研究前端技術約半年左右。
         </p>
 
-        <h5 class="mt-5">自學歷程</h5>
+        <!-- <h5 class="mt-5">自學歷程</h5>
         <p>
           一開始先規劃了我想學的這個領域又細分成哪幾項，再開始蒐集並篩選網路上各種資源開始一步步的學習，前期幾乎都是以看影片的方式學習，<br />
           到後期比較知道是因為什麼原因導致Bug之後都是以看文件的方式來查問題，當獲取的知識點不斷累積起來時，對"寫程式"產生了越來越大的興趣，<br />
           很喜歡在程式裡輾轉的邏輯思考、遇到問題到解決問題這段帶給自己的成就感與永遠學不完的知識。
-        </p>
+        </p> -->
         <h5 class="mt-5">專業技能</h5>
         <p>
-          目前熟悉HTML、CSS、JavaScript、Vue、Pinia、Bootstrap5、GitHub與RWD，scss的部分這個專案有使用到少許功能。<br />
-          未來計畫學習TypeScript、React與公司需要的技能，同時也正在補足網路相關知識和更熟練JavaScript。
+          目前熟悉 HTML、CSS、JavaScript、Vue、Pinia、Bootstrap5、GitHub 與
+          RWD，scss 的部分這個專案有使用到少許功能。<br />
+          未來計畫學習 TypeScript、React
+          與公司需要的技能，同時也正在補足網路相關知識和更熟練 JavaScript。
         </p>
         <h5 class="mt-5">專題使用技術</h5>
         <p>
-          在做這個專案前有研究過Composition
-          API的寫法，於是在此次專案採用了vite+Composition
-          API來開發，配合Bootstrap的格線系統來切版，組件間的傳遞用Pinia來做溝通。
+          在做這個專案前有研究過 Composition API 的寫法，此專案採用了 vite +
+          Composition API 來開發，配合 Bootstrap
+          的格線系統來切版，組件間的傳遞用 Pinia 來做溝通。
         </p>
       </div>
       <div class="col-12 pb-3">
@@ -83,9 +85,9 @@
       <div class="col-12 col-xl-7 mt-5 mt-xl-0">
         <div class="d-md-flex">
           <div>
-            <p style="white-space: nowrap">2020/6 &ensp;-&ensp; now</p>
+            <p style="white-space: nowrap">2020 / 6 - 2022 / 12</p>
           </div>
-          <div class="ps-4">
+          <div class="ps-3">
             <h5>木工師傅</h5>
             <p>
               了解圖面上需施工區域完成後的樣貌及尺寸，<br />
@@ -97,12 +99,12 @@
         </div>
         <div class="d-md-flex pt-5">
           <div>
-            <p style="white-space: nowrap">2019/9 - 2020/6</p>
+            <p style="white-space: nowrap">2019 / 9 - 2020 / 6</p>
           </div>
           <div class="ps-4">
-            <h5>CAD繪圖人員</h5>
+            <h5>CAD 繪圖人員</h5>
             <p>
-              於勤利設計顧問有限公司擔任CAD繪圖實習生，<br />
+              於勤利設計顧問有限公司擔任 CAD 繪圖實習生，<br />
               計算出符合法規的施工辦法，<br />
               在圖說上表達出計算的結果，<br />
               清楚的標示出該用的材質與型號。
@@ -119,7 +121,7 @@
       <div class="col-12 col-xl-7 pt-5 pt-xl-0">
         <div class="d-flex">
           <div>
-            <p style="white-space: nowrap">2016/9 - 2020/6</p>
+            <p style="white-space: nowrap">2016 / 9 - 2020 / 6</p>
           </div>
           <div class="ps-4">
             <h5>醒吾科技大學</h5>
@@ -128,7 +130,7 @@
         </div>
         <div class="d-flex pt-5">
           <div>
-            <p style="white-space: nowrap">2013/9 - 2016/6</p>
+            <p style="white-space: nowrap">2013 / 9 - 2016 / 6</p>
           </div>
           <div class="ps-4">
             <h5>惇敘工商</h5>
