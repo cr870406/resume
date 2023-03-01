@@ -36,6 +36,12 @@
           目前熟悉HTML、CSS、JavaScript、Vue、Pinia、Bootstrap5、GitHub與RWD，scss的部分這個專案有使用到少許功能。<br />
           未來計畫學習TypeScript、React與公司需要的技能，同時也正在補足網路相關知識和更熟練JavaScript。
         </p>
+        <h5 class="mt-5">專題使用技術</h5>
+        <p>
+          在做這個專案前有研究過Composition
+          API的寫法，於是在此次專案採用了vite+Composition
+          API來開發，配合Bootstrap的格線系統來切版，組件間的傳遞用Pinia來做溝通。
+        </p>
       </div>
       <div class="col-12 pb-3">
         <hr />
