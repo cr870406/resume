@@ -35,14 +35,7 @@
         <p>
           目前熟悉 HTML、CSS、JavaScript、Vue、Pinia、Bootstrap5、GitHub 與
           RWD，scss 的部分這個專案有使用到少許功能。<br />
-          未來計畫學習 TypeScript、React
-          與公司需要的技能，同時也正在補足網路相關知識和更熟練 JavaScript。
-        </p>
-        <h5 class="mt-5">專題使用技術</h5>
-        <p>
-          在做這個專案前有研究過 Composition API 的寫法，此專案採用了 vite +
-          Composition API 來開發，配合 Bootstrap
-          的格線系統來切版，組件間的傳遞用 Pinia 來做溝通。
+          未來計畫學習 TypeScript、React 與公司需要的技能。
         </p>
       </div>
       <div class="col-12 pb-3">
@@ -54,11 +47,16 @@
       <div class="col-12 col-lg-6 pt-md-5">
         <h4 class="mt-5 mt-sm-0">目木家具</h4>
         <p class="lh-lg pt-3">
-          本身從事木工，如果能將自己做的商品以網路的方式讓大家知道會是一個很棒的行銷，<br />
+          <!-- 本身從事木工，如果能將自己做的商品以網路的方式讓大家知道會是一個很棒的行銷，<br />
           進而增加不同領域的人脈，提供了一個簡潔、現代化的介面，方便用戶查看和購買手工製作的家具。
           網站主頁展示了精選的家具系列，包括沙發、椅子、桌子等等。<br />
           此外，網站還有一個靈感頁面提供用戶找尋居家擺放的靈感。<br />
-          目前正在規劃客製化設計選項，讓用戶可以按照自己的喜好和需求設計和定制家具。
+          目前正在規劃客製化設計選項，讓用戶可以按照自己的喜好和需求設計和定制家具。 -->
+          - 使用 Vite + Composition API <br />
+          - 利用 Bootstrap Grid 排版 <br />
+          - Axios 處理 API 串接 <br />
+          - Vue Router 實現頁面跳轉 <br />
+          - 使用 Pinia 組件間傳遞資料<br />
         </p>
         <a
           href="https://github.com/cr870406"
@@ -88,7 +86,7 @@
             <p style="white-space: nowrap">2020 / 6 - 2022 / 12</p>
           </div>
           <div class="ps-3">
-            <h5>木工師傅</h5>
+            <h5>室內裝潢</h5>
             <p>
               了解圖面上需施工區域完成後的樣貌及尺寸，<br />
               規劃出最好施作的辦法與可行性，<br />
