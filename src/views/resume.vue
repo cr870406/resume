@@ -42,7 +42,7 @@
           <li>1.&ensp;HTML</li>
           <li>2.&ensp;CSS ( Scss )</li>
           <li>3.&ensp;JavaScript</li>
-          <li>4.&ensp;Vue3 ( Pinia、Vue - Router )</li>
+          <li>4.&ensp;Vue 2/3 ( Pinia、Vue - Router )</li>
           <li>5.&ensp;Bootstrap 5</li>
           <li>6.&ensp;Git 版本控制</li>
           <li>7.&ensp;Axios</li>
