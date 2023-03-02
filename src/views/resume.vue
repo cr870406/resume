@@ -38,14 +38,14 @@
           RWD，scss 的部分這個專案有使用到少許功能。<br />
           未來計畫學習 TypeScript、React 與公司需要的技能。
         </p> -->
-        <ol>
-          <li>HTML</li>
-          <li>CSS ( Scss )</li>
-          <li>JavaScript</li>
-          <li>Vue3 ( Pinia、Vue - Router )</li>
-          <li>Bootstrap 5</li>
-          <li>Git 版本控制</li>
-          <li>Axios</li>
+        <ol class="list-unstyled">
+          <li>1.&ensp;HTML</li>
+          <li>2.&ensp;CSS ( Scss )</li>
+          <li>3.&ensp;JavaScript</li>
+          <li>4.&ensp;Vue3 ( Pinia、Vue - Router )</li>
+          <li>5.&ensp;Bootstrap 5</li>
+          <li>6.&ensp;Git 版本控制</li>
+          <li>7.&ensp;Axios</li>
         </ol>
         <h5 class="mt-5">未來計畫</h5>
         <p>
