@@ -33,11 +33,20 @@
           很喜歡在程式裡輾轉的邏輯思考、遇到問題到解決問題這段帶給自己的成就感與永遠學不完的知識。
         </p> -->
         <h5 class="mt-5">專業技能</h5>
-        <p>
+        <!-- <p>
           目前熟悉 HTML、CSS、JavaScript、Vue、Pinia、Bootstrap5、GitHub 與
           RWD，scss 的部分這個專案有使用到少許功能。<br />
           未來計畫學習 TypeScript、React 與公司需要的技能。
-        </p>
+        </p> -->
+        <ol>
+          <li>HTML</li>
+          <li>CSS ( Scss )</li>
+          <li>JavaScript</li>
+          <li>Vue3 ( Pinia、Vue - Router )</li>
+          <li>Bootstrap 5</li>
+          <li>Git 版本控制</li>
+          <li>Axios</li>
+        </ol>
         <h5 class="mt-5">未來計畫</h5>
         <p>
           未來希望能以 " 前端工程師 " 的身份繼續學習新的知識與技術，
