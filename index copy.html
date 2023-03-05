@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>賴慕宇個人履歷</title>
+  <style>
+    .back {
+      background-color: #f3f3f3;
+
+    }
+
+    body {
+      height: 100%;
+    }
+
+    .a {
+      width: 100px;
+      height: 100px;
+      background-color: aqua;
+
+    }
+
+    .b {
+      width: 0;
+      height: 0;
+      border-left: 50px solid rgb(46, 27, 27);
+      border-bottom: 100px solid red;
+      /* border-right: 50px solid transparent; 
+      border-bottom: 100px solid red; */
+
+    }
+  </style>
+</head>
+
+<body class="back">
+  <div class="a">
+    <div class="b"></div>
+  </div>
+  <script>
+    let a = 1;
+    let b = 2;
+    a = { a, b }
+    b = a.a
+    a = a.b
+    console.log(a);
+  </script>
+</body>
+
+</html>
